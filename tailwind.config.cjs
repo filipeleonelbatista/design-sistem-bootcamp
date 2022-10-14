@@ -5,17 +5,20 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      'xs': 14,
-      'sm': 16,
-      'md': 18,
-      'lg': 20,
-      'xl': 24,
+      xs: 14,
+      sm: 16,
+      md: 18,
+      lg: 20,
+      xl: 24,
       '2xl': 32,
     },
+
     colors: {
-      black: '#000',
-      white: '#fff',
       transparent: 'transparent',
+
+      black: '#000',
+      white: '#FFF',
+
       gray: {
         900: '#121214',
         800: '#202024',
@@ -23,15 +26,16 @@ module.exports = {
         200: '#c4c4cc',
         100: '#e1e1e6',
       },
-      cyan:{
+
+      cyan: {
         500: '#81d8f7',
-        300: '#98e1fb',
-      }
+        300: '#9BE1FB'
+      },
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-      }
+        sans: 'Inter, sans-serif'
+      },
     },
   },
   plugins: [],

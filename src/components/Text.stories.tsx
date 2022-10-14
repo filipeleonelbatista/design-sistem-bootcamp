@@ -1,65 +1,54 @@
-import { Meta, StoryObj } from '@storybook/react';
+import { Meta, StoryObj } from '@storybook/react'
 import { Text, TextProps } from './Text'
 
 export default {
-    title: 'Components/Text',
-    component: Text,
-    args: {
-        children: 'Text',
-        size: 'md',
-        asChild: false,
-    },
-    argTypes: {
-        size: {
-            options: ['sm', 'md', 'lg'],
-            control: {
-                type: 'inline-radio',
-            },
-        },
-        children: {
-            table: {
-                disable: true,
-            },
-        },
-        asChild: {
-            table: {
-                disable: true,
-            },
-        }
+  title: 'Components/Text',
+  component: Text,
+  args: {
+    children: 'Lorem ipsum.',
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg'],
+      control: {
+        type: 'inline-radio'
+      }
     }
-} as Meta<TextProps>;
+  }
+} as Meta<TextProps>
 
-export const Default: StoryObj<TextProps> = {
-
-}
+export const Default: StoryObj<TextProps> = {}
 
 export const Small: StoryObj<TextProps> = {
-    args: {
-        size: 'sm',
-        children: 'Text Small',
-    }
-}
-
-export const Medium: StoryObj<TextProps> = {
-    args: {
-        size: 'md',
-        children: 'Text Medium',
-    }
+  args: {
+    size: 'sm'
+  }
 }
 
 export const Large: StoryObj<TextProps> = {
-    args: {
-        size: 'lg',
-        children: 'Text Large',
-    }
+  args: {
+    size: 'lg'
+  }
 }
 
 export const CustomComponent: StoryObj<TextProps> = {
-    args: {
-        size: 'md',
-        asChild: true,
-        children: (
-            <p>Custom Text</p>
-        )
+  args: {
+    asChild: true,
+    children: (
+      <p>Text with P tag</p>
+    )
+  },
+  argTypes: {
+    children: {
+      table: {
+        disable: true,
+      }
+    },
+    asChild: {
+      table: {
+        disable: true,
+      }
     }
+  }
 }

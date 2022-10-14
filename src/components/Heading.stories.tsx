@@ -1,66 +1,54 @@
-import { Meta, StoryObj } from '@storybook/react';
+import { Meta, StoryObj } from '@storybook/react'
 import { Heading, HeadingProps } from './Heading'
 
 export default {
-    title: 'Components/Heading',
-    component: Heading,
-    args: {
-        children: 'Heading MD',
-        size: 'md',
-    },
-    argTypes: {
-        size: {
-            options: ['sm', 'md', 'lg'],
-            control: {
-                type: 'inline-radio',
-            },
-        },
-        children: {
-            table: {
-                disable: true,
-            },
-        },
-        asChild: {
-            table: {
-                disable: true,
-            },
-        }
+  title: 'Components/Heading',
+  component: Heading,
+  args: {
+    children: 'Lorem ipsum.',
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg'],
+      control: {
+        type: 'inline-radio'
+      }
     }
-} as Meta<HeadingProps>;
+  }
+} as Meta<HeadingProps>
 
-export const Default: StoryObj<HeadingProps> = {
-    args: {
-        children: 'Heading Default',
-    }
-}
+export const Default: StoryObj<HeadingProps> = {}
 
 export const Small: StoryObj<HeadingProps> = {
-    args: {
-        size: 'sm',
-        children: 'Heading Small',
-    }
-}
-
-export const Medium: StoryObj<HeadingProps> = {
-    args: {
-        size: 'md',
-        children: 'Heading Medium',
-    }
+  args: {
+    size: 'sm'
+  }
 }
 
 export const Large: StoryObj<HeadingProps> = {
-    args: {
-        size: 'lg',
-        children: 'Heading Large',
-    }
+  args: {
+    size: 'lg'
+  }
 }
 
 export const CustomComponent: StoryObj<HeadingProps> = {
-    args: {
-        size: 'md',
-        asChild: true,
-        children: (
-            <h1>Custom Heading</h1>
-        )
+  args: {
+    asChild: true,
+    children: (
+      <h1>Heading with H1</h1>
+    )
+  },
+  argTypes: {
+    children: {
+      table: {
+        disable: true,
+      }
     },
+    asChild: {
+      table: {
+        disable: true,
+      }
+    }
+  }
 }
