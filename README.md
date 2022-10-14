@@ -4,7 +4,6 @@
   
 Evento disponibilizado pela [RocketSeat](https://www.rocketseat.com.br/)
 <p>Tema: Design System com Figma, React e StoryBook</p> 
-<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/claudneysessa/RocketSeat-ignite-lab-design-system" />
 
 Projeto desenvolvido durante a semana de 10/10/2022 a 13/11/2022, onde pude ter contato com várias ferramentas para a construção de um Design System como, Figma, React, StoryBook e TailwindCSS.
 
@@ -40,39 +39,18 @@ deploy automatizado com GitHub Actions e simulação do Front-End em Vite.
  
 Projeto no Figma:
 
-https://www.figma.com/file/2ws9TBu6IweT00RnFdCo6a/Ignite-Lab-Design-System?node-id=14%3A162
+https://www.figma.com/file/YBOweIec7URKNExxWffzBz/Ignite-Lab-DS?node-id=0%3A1
  
 Pagina de Login:
  
 ![image](https://user-images.githubusercontent.com/12506432/195759270-ae386b8b-4737-408b-9a74-f961af057651.png)
-
-Estrutura dos Componentea gerados:
-
-![image](https://user-images.githubusercontent.com/12506432/195759371-72ff7fff-39ac-46ae-896e-8a9059408f21.png)
-
-## Deploy do Storybook no Github Pages
-
-Veja aqui a publicação do StoryBook no GitHub Pages
-
- - [https://claudneysessa.github.io/rocketseat-ignite-lab-design-system](https://claudneysessa.github.io/rocketseat-ignite-lab-design-system/?path=/story/components-button--default)
-
-<img width="1440" alt="image" src="https://user-images.githubusercontent.com/12506432/195783039-a5894c65-576a-4afa-a53a-92e09359e40c.png">
-
-<img width="1440" alt="image" src="https://user-images.githubusercontent.com/12506432/195783108-1897753f-12f0-4bc7-8b62-5b4986074414.png">
-
-<img width="1440" alt="image" src="https://user-images.githubusercontent.com/12506432/195782423-ff44783f-e7c1-4fe1-955d-bfd818c67bd5.png">
-
-<img width="1440" alt="image" src="https://user-images.githubusercontent.com/12506432/195783243-f5f4874e-34a2-4d2d-83c0-ae2fc1aa9978.png">
-
-<img width="1440" alt="image" src="https://user-images.githubusercontent.com/12506432/195783293-69f2124a-4fd4-4cf0-a3f2-720a6fef29f3.png">
 
 ## Instalação e uso
 
 Clone o projeto e acesse a pasta
 
 ```bash
-$ git clone https://github.com/claudneysessa/rocketseat-ignite-lab-design-system
-
+$ git clone https://github.com/filipeleonelbatista/design-sistem-bootcamp
 ```
 
 Siga os passos abaixo:
@@ -127,30 +105,22 @@ $ npm run storybook
 
 </div>
 
-## Where to find me
 
-<div>
-    <a href="https://www.youtube.com/channel/UC52P3HVpmOMHjkmIhcjLRyQ" target="_blank">
-      <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank">
-    </a>
-    <a href="https://instagram.com/claudneysessa" target="_blank">
-      <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
-    </a>
-    <a href = "mailto:claudneysartisessa@gmail.com">
-      <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
-    </a>
-    <a href="https://www.linkedin.com/in/claudneysessa/" target="_blank">
-      <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-    </a>
-    <a href="https://medium.com/@claudneysartisessa" target="_blank">
-      <img alt="Medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />
-    </a>
-</div>
+---
 
-## Veja o meu Perfil no Github
-
-https://github.com/claudneysessa
-
-## Contact
- - Instagram: [https://www.instagram.com/claudneysessa/](https://www.instagram.com/claudneysessa/)
- - Linkedin: [https://www.linkedin.com/in/claudneysessa/](https://www.linkedin.com/in/claudneysessa/)
+<h3 align="center" >Vamos nos conectar 😉</h3>
+<p align="center">
+  <a href="https://www.linkedin.com/in/filipelbatista/">
+    <img alt="LinkedIn" width="22px" src="https://github.com/filipeleonelbatista/filipeleonelbatista/blob/master/assets/052-linkedin.svg" />
+  </a>&ensp;
+  <a href="mailto:filipe.x2016@gmail.com">
+    <img alt="Email" width="22px" src="https://github.com/filipeleonelbatista/filipeleonelbatista/blob/master/assets/gmail.svg" />
+  </a>&ensp;
+  <a href="https://instagram.com/filipegaucho22">
+    <img alt="Instagram" width="22px" src="https://github.com/filipeleonelbatista/filipeleonelbatista/blob/master/assets/044-instagram.svg" />
+  </a>
+</p>
+<br />
+<p align="center">
+    Desenvolvido 💜 por Filipe Batista 
+</p>
